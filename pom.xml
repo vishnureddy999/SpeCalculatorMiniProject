@@ -17,6 +17,8 @@
                       
 
                 <configuration>
+                         <maven.compiler.release>19</maven.compiler.release>
+
                     <archive>
                         <manifestFile>src/main/resources/META_INF/MANIFEST.MF</manifestFile>
                     </archive>
