@@ -14,10 +14,16 @@
                <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-jar-plugin</artifactId>
              
-                      
+                      <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    
+        
 
                 <configuration>
-                         <maven.compiler.release>19</maven.compiler.release>
+                         
+                         <source>19</source>
+                      <target>19</target>
+    
 
                     <archive>
                         <manifestFile>src/main/resources/META_INF/MANIFEST.MF</manifestFile>
