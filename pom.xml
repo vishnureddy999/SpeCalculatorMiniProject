@@ -14,16 +14,11 @@
                <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-jar-plugin</artifactId>
              
-                      <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
-    
+                   
         
 
                 <configuration>
-                         
-                         <source>19</source>
-                      <target>19</target>
-    
+                       
 
                     <archive>
                         <manifestFile>src/main/resources/META_INF/MANIFEST.MF</manifestFile>
@@ -34,8 +29,8 @@
         </plugins>
     </build>
     <properties>
-        <maven.compiler.source>19</maven.compiler.source>
-        <maven.compiler.target>19</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
