@@ -3,5 +3,5 @@
   tasks:
     - name: Pull image
       docker_image:
-        name: vishnureddyd/dockerspeproject
+        name: vishnureddyd/speminiproject
         source: pull
