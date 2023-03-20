@@ -1,0 +1,8 @@
+---
+- name: Pull Docker Image of Calculator
+  hosts: all
+  tasks:
+    - name: Pull image
+      docker_image:
+        name: vishnureddyd/dockerspeproject
+        source: pull
